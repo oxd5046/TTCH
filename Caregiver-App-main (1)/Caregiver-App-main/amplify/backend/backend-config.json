@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "caregiverapp": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_caregiverapp_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_caregiverapp_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "caregiverapp"
+        }
+      ]
+    }
+  }
+}

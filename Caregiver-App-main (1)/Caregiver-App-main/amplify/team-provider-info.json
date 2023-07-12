@@ -1,0 +1,32 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-caregiverapp-staging-05411-authRole",
+      "UnauthRoleArn": "arn:aws:iam::852359950315:role/amplify-caregiverapp-staging-05411-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::852359950315:role/amplify-caregiverapp-staging-05411-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-caregiverapp-staging-05411-deployment",
+      "UnauthRoleName": "amplify-caregiverapp-staging-05411-unauthRole",
+      "StackName": "amplify-caregiverapp-staging-05411",
+      "StackId": "arn:aws:cloudformation:us-east-1:852359950315:stack/amplify-caregiverapp-staging-05411/9a8686c0-a4ef-11ed-bf90-0e157a76dd69",
+      "AmplifyAppId": "d2xgdpod2lt4b3"
+    },
+    "categories": {
+      "auth": {
+        "caregiverapp": {
+          "userPoolId": "us-east-1_anHc3uvBS",
+          "userPoolName": "caregiver-pool",
+          "webClientId": "3udstlvm0ad7fgnr58948939hl",
+          "nativeClientId": "3udstlvm0ad7fgnr58948939hl",
+          "identityPoolId": "us-east-1:f4fa7e19-8d73-4e01-90de-a4cddf3603b9",
+          "identityPoolName": "caregiver-native-identity",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::852359950315:role/Cognito_caregivernativeidentityAuth_Role",
+          "authRoleName": "Cognito_caregivernativeidentityAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::852359950315:role/Cognito_caregivernativeidentityUnauth_Role",
+          "unauthRoleName": "Cognito_caregivernativeidentityUnauth_Role"
+        }
+      }
+    }
+  }
+}
